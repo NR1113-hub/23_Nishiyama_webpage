@@ -63,12 +63,7 @@ div.parent_box {
   display: flex;
   align-items: center;
 }
-@media only screen and (max-width: 500px) {
-  .mobile-scroll {
-    white-space: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-width:100%;
+.tb-wrap{
+  width:100%;
   overflow-x:scroll;
-  }
 }
