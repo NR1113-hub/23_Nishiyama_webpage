@@ -67,3 +67,14 @@ div.parent_box {
   width:100%;
   overflow-x:scroll;
 }
+@media (max-width: 500px) {
+    div.parent_box {
+    width: 100%;
+    flex-direction: column;
+    align-items: left;
+    }
+    p.side_text {
+  display: inline-block;
+  width: 100%;
+  }
+}
